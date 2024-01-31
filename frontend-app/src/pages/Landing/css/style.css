@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback');
+
+@import 'utility-patterns.css';
+@import 'range-slider.css';
+@import 'toggle-switch.css';
+@import 'theme.css';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+[x-cloak=""] {
+    display: none;
+}
